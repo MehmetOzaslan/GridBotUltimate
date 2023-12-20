@@ -15,6 +15,7 @@ if __name__ == '__main__':
     bot = commands.Bot()
     bot.load_extension('cogs.command_runner')
     bot.load_extension('cogs.chatgpt')
+    bot.load_extension('cogs.pvc_query_wrapper')
     bot.run(discord_key)
 
 
