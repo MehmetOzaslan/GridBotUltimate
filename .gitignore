@@ -2,3 +2,5 @@
 venv/
 __pycache__/
 credidentials.env
+pvc_download/pid
+pvc_download/pvc_log.csv
